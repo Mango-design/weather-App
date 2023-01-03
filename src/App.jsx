@@ -40,7 +40,7 @@ function App() {
         <h1 className='title'>Wheater App</h1>
         <h2 className='sub-title'>{wheater.name}, {wheater.sys?.country}</h2>
         <div className='content'>
-          <img className='icon' src={`http://openweathermap.org/img/wn/${wheater.weather?.[0].icon}@2x.png`} alt="icon" />
+          <img className='icon' src={`https://openweathermap.org/img/wn/${wheater.weather?.[0].icon}@2x.png`} alt="icon" />
           <div className='description'>
           <h3>"{wheater.weather?.[0].description}"</h3>
          
